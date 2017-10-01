@@ -1,0 +1,10 @@
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\bin\Debug\ElliottProject4.exe.config
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\bin\Debug\ElliottProject4.exe
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\bin\Debug\ElliottProject4.pdb
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\obj\Debug\ElliottProject4.csprojResolveAssemblyReference.cache
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\obj\Debug\ElliottProject4.Form1.resources
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\obj\Debug\ElliottProject4.Properties.Resources.resources
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\obj\Debug\ElliottProject4.csproj.GenerateResource.Cache
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\obj\Debug\ElliottProject4.exe
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\obj\Debug\ElliottProject4.pdb
+c:\users\kelse\documents\visual studio 2015\Projects\ElliottProject4\ElliottProject4\bin\Debug\BinaryTextFile.txt
