@@ -29,20 +29,21 @@ namespace ElliottProject4
             string text = System.IO.File.ReadAllText(@"BinaryTextFile.txt");   
 
             //Splits text file by the characters below
-            char[] delimiterChars = { ' ', ',', '.', ':', '\t', '\r', '\n' };
+            char[] delimiterChars = { ' ', '"', '.', ':', '\t', '\r', '\n', '?', '!', ';', '(', ')' };
             string[] words = text.Split(delimiterChars);
             
 
             foreach (string s in words)
             {
-                if(!string.IsNullOrWhiteSpace(s))
+                if(!string.IsNullOrWhiteSpace(s.Replace(",","")))
                 {
                     //ToLower makes all words lowercase
-                    tree.addNode(s.ToLower());
+                    tree.addNode(s.ToLower().Replace(",",""));
                 }
             }
 
             txtBox.Text = tree.printOut();
+            label1.Text = "Total Word Count: " + tree.counter.ToString();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace ElliottProject4
     {
         private BTreeNode root;
         private BTreeNode temp;
-
+        public int counter = 0;
         public void addNode(string nodeValue)
         {
             temp = new BTreeNode();
@@ -19,10 +19,12 @@ namespace ElliottProject4
             if (root == null)
             {
                 root = temp;
+                counter = 1;
             }
             else
             {
                 recAddNode(root);
+                counter++;
             }
          
         }
